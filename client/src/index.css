@@ -1,0 +1,97 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+a {
+  /* color: #60bf70 !important; 
+  color: tomato !important;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: black !important;
+}
+
+a.active {
+  /* color: #57d96d !important; 
+  color: tomato !important;
+} */
+
+
+
+/* Default styles for all screen sizes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+a {
+  color: tomato !important;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: black !important;
+}
+
+a.active {
+  color: tomato !important;
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  body {
+    font-size: 14px;
+  }
+  
+  a {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* Styles for screens between 768px and 992px wide */
+  body {
+    font-size: 16px;
+  }
+  
+  a {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Styles for screens wider than 992px */
+  body {
+    font-size: 18px;
+  }
+  
+  a {
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
+/*  
+*/
+
